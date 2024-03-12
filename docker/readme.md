@@ -1,8 +1,4 @@
-## Introduction to Docker
-
-> Docker has transformed the way we develop, ship, and deploy applications. Let's delve into why Docker is essential for modern software development and how it addresses common challenges.
-
-### **Problem: Challenges in Software Development**
+## **Problem: Challenges in Software Development**
 
 Traditional software development faces issues with consistency, portability, and dependency management across different environments. Developers often encounter "it works on my machine" problems, leading to deployment delays and compatibility issues.
 
@@ -10,7 +6,7 @@ Traditional software development faces issues with consistency, portability, and
     <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1709829824587/bf7b5c6a-a654-4250-948c-ac1e810eb4b7.webp" alt="Docker Image">
 </div>
 
-### **Solution: Introducing Docker**
+## **Introducing Docker**
 
 Docker provides a solution by packaging applications into lightweight, portable containers. These containers encapsulate everything needed to run the software, ensuring consistency and eliminating environment discrepancies.
 
@@ -18,7 +14,7 @@ Docker provides a solution by packaging applications into lightweight, portable 
 
 Docker is a platform for developing, shipping, and running applications in containers.
 
-> Let’s imagine you would like to build a website or a web application. What do you need to make your next Facebook, Youtube, or Twitter up and running?
+> Let’s imagine you would like to build a website or a web application. What do you need to make your next Facebook, YouTube, or Twitter up and running?
 
 > For sure you will need to develop some code, as it is a key part of every or web software. But the code on its own is not enough. Websites and applications consist of many additional parts, like databases, configuration files, runtime libraries, and other third-party software.
 
@@ -76,6 +72,22 @@ Docker Registry: A centralized repository for Docker images, where users can sto
     <img src="https://media.licdn.com/dms/image/D4E22AQFTuPoNomSg0Q/feedshare-shrink_1280/0/1697956207832?e=1712793600&v=beta&t=bx0liV2x--56BXNJB2k_vTlBepYggY3V_zgwwW10UBQ">
 </div>
 
+
+# **  
+Docker Core Concepts:**
+
+* **Docker Image:** A read-only template that contains a set of instructions for creating a Docker container. Images are used to create containers.
+    
+* **Docker Container:** A runnable instance of a Docker image that runs in isolation on the host machine.
+    
+* **Dockerfile:** A text file that contains instructions for building a Docker image.
+    
+* **Docker Registry:** A repository for storing and sharing Docker images.
+    
+* **Docker Network:** A feature that allows containers to communicate with each other and with the host machine. Docker provides several network drivers for different use cases, including bridge, overlay, and macvlan.
+    
+* **Docker Compose:** A tool for defining and running multi-container Docker applications. Docker Compose uses a YAML file to configure the services that make up the application.
+    
 
 ## **Most commonly used tags in a Dockerfile:**
 
@@ -161,4 +173,7 @@ If you found this helpful, don't forget to give it a thumbs-up and hit the follo
 
 Let's keep the learning journey going! 🚀📚
 
-with ❤️ by - Hrushikesh Makode ➡️ [hrushikesh.tech](https://hrushikesh.tech)
+With ❤️ by - Hrushikesh Makode  
+For more such blogs, check out:  
+➡️ [blogs.hrushikesh.tech](https://blogs.hrushikesh.tech)  
+➡️ [hrushikesh.tech](https://hrushikesh.tech)
