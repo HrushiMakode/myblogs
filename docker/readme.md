@@ -1,3 +1,11 @@
+# Basics of Docker that every SDEs should know
+#### the way to develop, ship, and deploy applications with ease 🔥🚀
+
+<div style="text-align:center">
+    <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1708613799024/0cddd38d-c89d-4c9e-bc31-f693ac9243b5.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp" alt="Docker Image">
+</div>
+
+
 ## **Problem: Challenges in Software Development**
 
 Traditional software development faces issues with consistency, portability, and dependency management across different environments. Developers often encounter "it works on my machine" problems, leading to deployment delays and compatibility issues.
